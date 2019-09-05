@@ -4,11 +4,28 @@ import {View , StyleSheet , Text} from "react-native";
 export default class SalaryGel extends Component {
     render() {
         return(
-            <View>
-                <Text>
+            <View style = {styles.wrapperView}>
+                <Text style = {styles.text}>
                     SalaryGel
                 </Text>
+
             </View>
         )
     }
 }
+
+const styles = StyleSheet.create({
+    text: {
+        color: 'white',
+        fontWeight: 'bold'
+    },
+    wrapperView: {
+        width: '95%',
+        height: '15%',
+        backgroundColor: '#30355c',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: 15
+
+    }
+})
