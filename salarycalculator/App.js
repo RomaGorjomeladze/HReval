@@ -1,19 +1,20 @@
-import React from 'react';
+import React ,{Component} from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Exchange from "./components/current-exchange-rate/Exchange";
+import SalaryGel from "./components/salary-gel/SalaryGel";
+import TotalCost from "./components/total-cost/TotalCost";
+import CostIncludes from "./components/cost-includes/CostIncludes";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
-  );
+
+export default class App extends Component {
+  render() {
+    return (
+      <View>
+        <Exchange />
+        <SalaryGel />
+        <TotalCost />
+        <CostIncludes />
+      </View>
+    )
+  }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
