@@ -6,7 +6,6 @@ export default class TotalCost extends Component {
         return(
             <View>
                 <Text>
-                    TotalCost
                 </Text>
             </View>
         )

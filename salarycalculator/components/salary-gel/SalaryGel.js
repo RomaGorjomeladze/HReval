@@ -6,7 +6,6 @@ export default class SalaryGel extends Component {
         return(
             <View>
                 <Text>
-                    SalaryGel
                 </Text>
             </View>
         )

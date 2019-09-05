@@ -6,7 +6,6 @@ export default class CostIncludes extends Component {
         return(
             <View>
                 <Text>
-                    CostIncludes
                 </Text>
             </View>
         )
