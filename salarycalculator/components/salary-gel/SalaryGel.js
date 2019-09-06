@@ -1,18 +1,20 @@
 import React ,{Component} from "react";
 import {View , StyleSheet , Text , TextInput} from "react-native";
+import { Kaede } from 'react-native-textinput-effects';
+
 
 export default class SalaryGel extends Component {
     render() {
         return(
             <View style = {styles.wrapperView}>
                 <Text style = {styles.text}>
-                    Salary 
                 </Text>
-                    <View>
-                        <TextInput  
+                    <View >
+                        {/* <TextInput   keyboardType="numeric"
                          underlineColorAndroid = "transparent" 
                            placeholder="Salary GEL" 
-                            style={styles.salaryInput}></TextInput>
+                            style={styles.salaryInput}></TextInput> */}
+                            <Kaede style={styles.kaedoPlace} label={'Salary'} inputPadding={3}/>
                         <Text style={styles.gross}>
                            Salary GEL gross :
                            <Text style={styles.grossNumber}>1274</Text>
@@ -26,6 +28,7 @@ export default class SalaryGel extends Component {
         )
     }
 }
+
 
 const styles = StyleSheet.create({
     text: {

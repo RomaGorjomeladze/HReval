@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68dbaad6-8e9c-43b0-abad-f4b7da666a14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/salarycalculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cost-includes/CostIncludes.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/cost-includes/CostIncludes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/current-exchange-rate/Exchange.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/current-exchange-rate/Exchange.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/salary-gel/SalaryGel.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/salary-gel/SalaryGel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/total-cost/TotalCost.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/total-cost/TotalCost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/wrapper/Wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/wrapper/Wrapper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -58,9 +49,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="202" />
-    <option name="y" value="110" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="406" />
+    <option name="y" value="-11" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -70,6 +61,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,8 +74,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -116,10 +107,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="110" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20704846" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14857745" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -128,7 +119,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.18685122" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.17551462" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
