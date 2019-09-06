@@ -1,5 +1,5 @@
 import React ,{Component} from 'react';
-import { StyleSheet, Text, View, Dimensions, Button, KeyboardAvoidingView } from 'react-native';
+import { StyleSheet, Text, View, Dimensions, Button, KeyboardAvoidingView ,ImageBackground} from 'react-native';
 import Exchange from "./components/current-exchange-rate/Exchange";
 import SalaryGel from "./components/salary-gel/SalaryGel";
 import TotalCost from "./components/total-cost/TotalCost";
@@ -14,9 +14,9 @@ export default class App extends Component {
  
   render() {
     return (
-
+      
       <KeyboardAvoidingView behavior = 'padding' enabled style = {styles.main}>
-        <View style = {styles.globalView}>
+        <ImageBackground source={require('./assets/products-banner-img.png')} style = {styles.globalView}>
           <View style = {[ styles.largeView]}>
             <Header />
             <Exchange />
@@ -26,7 +26,7 @@ export default class App extends Component {
             <TotalCost />
             <CostIncludes/>  
           </View>
-        </View>
+        </ImageBackground>
       </KeyboardAvoidingView>
       
     )
@@ -94,7 +94,8 @@ const styles = StyleSheet.create({
   globalView: {
     justifyContent: 'space-between',
     alignItems: 'center',
-    width: '100%'
+    width: '100%' ,
+    height: "100%"
   },
   largeView: {
     width: '100%',

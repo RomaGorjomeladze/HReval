@@ -5,7 +5,7 @@ export default class Header extends Component {
     render() {
         return(
             <View style={styles.header}>
-                < Image style={styles.headerlogo} source={require('../../assets/logo.png')}>
+                < Image style={styles.headerlogo} source={require('../../assets/reallogo.png')}>
                     </Image>
             </View>
         )
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         position: "absolute",
         left: "2%",
         top: "0%" ,
-        width: 147 ,
+        width: 100 ,
         height: 50,
         borderBottomLeftRadius :5
     }
