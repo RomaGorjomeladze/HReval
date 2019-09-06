@@ -8,7 +8,7 @@ export default class TotalCost extends Component {
                 <Text style = {styles.text}>
                     TotalCost
                 </Text>
-                <TextInput style = {styles.salaryInput}></TextInput>
+                <TextInput autoFocus={true} keyboardType = 'numeric' style = {styles.salaryInput}></TextInput>
             </View>
         )
     }
