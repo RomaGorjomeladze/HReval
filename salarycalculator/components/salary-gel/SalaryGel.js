@@ -8,19 +8,23 @@ export default class SalaryGel extends Component {
                 <Text style = {styles.text}>
                     Salary 
                 </Text>
-                    <View>
+                    <View style={styles.inputWrapper}>
                         <TextInput  
                          underlineColorAndroid = "transparent" 
-                           placeholder="Salary GEL" 
+                            placeholder="Salary GEL" 
                             style={styles.salaryInput}></TextInput>
-                        <Text style={styles.gross}>
-                           Salary GEL gross :
-                           <Text style={styles.grossNumber}>1274</Text>
-                           </Text>
-                        <Text style={styles.taxes}>
-                            Taxes: 
-                        <Text style={styles.grossNumber}>1274</Text>
-                        </Text>
+                        <View style = {styles.view}>
+                            <Text style={styles.gross}>
+                            Salary GEL gross :
+                                <Text style={styles.grossNumber}>
+                                    1274
+                                </Text>
+                            </Text>
+                            <Text style={styles.taxes}>
+                                Taxes: 
+                                <Text style={styles.grossNumber}>1274</Text>
+                            </Text>
+                        </View>    
                     </View>
             </View>
         )
@@ -35,8 +39,8 @@ const styles = StyleSheet.create({
         lineHeight: 30
     },
     wrapperView: {
-        width: '70%',
-        height: '20%',
+        width: '90%',
+        height: '25%',
         backgroundColor: '#30355c',
         justifyContent: 'center',
         alignItems: 'center',
@@ -47,10 +51,7 @@ const styles = StyleSheet.create({
     } ,
     salaryInput : {
     width: 150,
-    borderBottomLeftRadius: 30,
-    borderBottomRightRadius: 30,
-    borderTopRightRadius: 30,
-    borderTopLeftRadius: 30, 
+    borderRadius: 30,
     backgroundColor :'white' ,
     paddingVertical: 0,
     paddingHorizontal: 15,
@@ -64,7 +65,6 @@ const styles = StyleSheet.create({
     },
     gross :{
         fontSize : 12,
-        marginLeft: 12,
         color: "white",
         fontWeight: "bold"
     },
@@ -77,5 +77,8 @@ const styles = StyleSheet.create({
         textAlign: "center" ,
         color: "white",
         fontWeight: "bold"
-    }
+    },
+    view: {
+        alignItems: 'flex-start'
+    },
 })
