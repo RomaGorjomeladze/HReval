@@ -6,6 +6,7 @@ import TotalCost from "./components/total-cost/TotalCost";
 import CostIncludes from "./components/cost-includes/CostIncludes";
 import Wrapper from "./components/wrapper/Wrapper";
 import {LinearGradient} from "expo-linear-gradient"
+import Header from "./components/header/Header";
 const windowWidth = Dimensions.get('screen').width
 const windowHeight = Dimensions.get('screen').height
 
@@ -17,6 +18,7 @@ export default class App extends Component {
       <KeyboardAvoidingView behavior = 'padding' enabled style = {styles.main}>
         <View style = {styles.globalView}>
           <View style = {[ styles.largeView]}>
+            <Header />
             <Exchange />
           </View>
           <View style = {styles.wrapperView} >

@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68dbaad6-8e9c-43b0-abad-f4b7da666a14" name="Default Changelist" comment="">
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/total-cost/TotalCost.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/total-cost/TotalCost.js" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/components/salary-gel/SalaryGel.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/salary-gel/SalaryGel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/components/cost-includes/CostIncludes.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/cost-includes/CostIncludes.js" afterDir="false" />
+
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +47,15 @@
       </list>
     </option>
   </component>
+
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="406" />
+    <option name="y" value="-11" />
+
   <component name="ProjectFrameBounds">
     <option name="x" value="202" />
     <option name="y" value="80" />
+
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -95,10 +111,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14857745" />
+
     <frame x="202" y="80" width="1400" height="1000" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20697168" />
+
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -107,7 +130,11 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
+
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.17551462" />
+
       <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.18669778" />
+
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
