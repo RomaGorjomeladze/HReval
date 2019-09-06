@@ -1,11 +1,12 @@
 import React ,{Component} from 'react';
-import { StyleSheet, Text, View, Dimensions, Button , ImageBackground } from 'react-native';
+import { StyleSheet, Text, View, Dimensions, Button, KeyboardAvoidingView } from 'react-native';
 import Exchange from "./components/current-exchange-rate/Exchange";
 import SalaryGel from "./components/salary-gel/SalaryGel";
 import TotalCost from "./components/total-cost/TotalCost";
 import CostIncludes from "./components/cost-includes/CostIncludes";
 import Wrapper from "./components/wrapper/Wrapper";
 import {LinearGradient} from "expo-linear-gradient"
+import Header from "./components/header/Header";
 const windowWidth = Dimensions.get('screen').width
 const windowHeight = Dimensions.get('screen').height
 
@@ -13,24 +14,41 @@ export default class App extends Component {
  
   render() {
     return (
-      <LinearGradient colors={[ "#0d0208", "#21151f", "#322237", "#3f3152", "#454370", "#494a79", "#4c5181", "#50588a", "#57547e", "#5a5172", "#5a4f66", "#574d5c"]} >
-      <View style={styles.main}>
-        <Wrapper />
-        <View style={styles.exchangeWrapp}>
-          <Exchange />
-        </View>
-        <View style={styles.background}>
-          <SalaryGel />
-          <TotalCost />
-          <CostIncludes />  
-        </View>
-      </View>
-      </LinearGradient>
-      
 
+      <KeyboardAvoidingView behavior = 'padding' enabled style = {styles.main}>
+        <View style = {styles.globalView}>
+          <View style = {[ styles.largeView]}>
+            <Header />
+            <Exchange />
+          </View>
+          <View style = {styles.wrapperView} >
+            <SalaryGel />
+            <TotalCost />
+            <CostIncludes/>  
+          </View>
+        </View>
+      </KeyboardAvoidingView>
+      
     )
   }
 }
+{/* <KeyboardAvoidingView behavior = 'padding' enabled>
+        <LinearGradient colors={[ "#0d0208", "#21151f", "#322237", "#3f3152", "#454370", "#494a79", "#4c5181", "#50588a", "#57547e", "#5a5172", "#5a4f66", "#574d5c"]} >
+          <View style={styles.main}>
+            <Wrapper />
+            <View style={styles.exchangeWrapp}>
+              <Exchange />
+            </View>
+            <View style={styles.background}>
+              <KeyboardAvoidingView>
+                <SalaryGel />
+                <TotalCost />
+                <CostIncludes />  
+              </KeyboardAvoidingView>
+            </View>
+          </View>
+        </LinearGradient>
+      </KeyboardAvoidingView> */}
 
 // const styles = StyleSheet.create({
 //   background: {
@@ -56,9 +74,11 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   main : {
     alignItems : "center" ,
-    // justifyContent  : "space-around" ,
+    justifyContent: 'space-between',
     width: windowWidth,
     height: windowHeight,
+    backgroundColor: "#01061A",
+    paddingTop: 35
    
     
   },
@@ -70,5 +90,19 @@ const styles = StyleSheet.create({
   exchangeWrapp : {
     alignItems :"center",
     width: "100%"
+  },
+  globalView: {
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    width: '100%'
+  },
+  largeView: {
+    width: '100%',
+    alignItems: 'center'
+  },
+  wrapperView: {
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    width: '95%'
   }
 })
